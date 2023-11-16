@@ -15,3 +15,10 @@ if userName == "admin" and passWord == "1234":
         Pri_1 = int(input("First Price : "))
         Pri_2 = int(input("Second Price : "))
         print(Pri_1 + Pri_2)
+elif userName == "Guest" and passWord == "0000":
+    the_price = int(input("first price : "))
+    the_Secprice = int(input("Second price : "))
+    the_Thirdprice = int(input("Third price : "))
+    print("sum = ",the_price + the_Secprice + the_Thirdprice)
+else:
+    print("Bye Bye")
