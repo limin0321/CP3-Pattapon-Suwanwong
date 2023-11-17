@@ -20,5 +20,15 @@ elif userName == "Guest" and passWord == "0000":
     the_Secprice = int(input("Second price : "))
     the_Thirdprice = int(input("Third price : "))
     print("sum = ",the_price + the_Secprice + the_Thirdprice)
+elif userName == "abc" or passWord == "Sawasdee":
+    num_1 = int(input("origin.one : "))
+    num_2 = int(input("origin.two : "))
+    num_3 = int(input("origin.three : "))
+    num_4 = int(input("origin.four : "))
+    num_5 = int(input("origin.five : "))
+    num_6 = int(input("origin.six : "))
+    num_7 = int(input("origin.seven : "))
+    num_8 = int(input("origin.eight: "))
+    print("sum_se",num_1*num_2*num_3*num_4*num_5*num_6*num_7*num_8)
 else:
     print("Bye Bye")
